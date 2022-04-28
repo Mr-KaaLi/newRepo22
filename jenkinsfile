@@ -30,7 +30,7 @@ pipeline    {
 
 		stage('Deploy') {
             steps {
-                sh ' echo deployed '
+                sh ' echo deployed and displayed '
                 // deploy adapters: [tomcat9(credentialsId: '58b982ac-1e15-457d-a4e7-4ac39f1b2b21',path: '', url: 'http://192.168.1.9:8888/')], contextPath: 'testapp', war: '**/*.war'
             }  
         }
